@@ -8,3 +8,7 @@ cp run_kallisto.sh ..
 cp samples.csv ..
 cp run_pfam.sh ..
 cd ..
+
+#run analyses
+sbatch run_kallisto.sh
+sbatch run_pfam.sh
