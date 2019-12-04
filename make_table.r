@@ -1,6 +1,3 @@
-#set working directory
-setwd("~/2019-hw3-rhamb001")
-
 #Open file as dataframe
 g571 = read.csv('g571.tsv',sep="\t",header=T) #file is tab delimited and has headers
 
