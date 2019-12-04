@@ -3,7 +3,7 @@ cd kallisto_results
 cd Glycerol_5.7_r1
 mv abundance.tsv g571.tsv
 cp g571.tsv ../..
-cd..
+cd ..
 
 cd Glycerol_5.7_r2
 mv abundance.tsv g572.tsv
