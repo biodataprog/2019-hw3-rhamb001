@@ -1,0 +1,8 @@
+While logged into cluster type following into command line:
+
+1. git clone https://github.com/biodataprog/2019-hw3-rhamb001.git
+2. cd 2019-hw3-rhamb001/
+3. bash run_analysis.sh
+4. Wait 10-15 minutes for analyses to finish running
+5. bash move_files.sh
+6. r make_table.r
