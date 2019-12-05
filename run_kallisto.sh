@@ -1,6 +1,6 @@
-#this is code Dr. Stajich wrote
 #!/usr/bin/bash
 #SBATCH -p short -N 1 -n 8 --mem 8gb --out kallisto.log #this is how to run things on the cluster
+#this is code Dr. Stajich wrote
 
 CPUS=$SLURM_CPUS_ON_NODE
 if [ -z $CPUS ]; then
