@@ -3,8 +3,8 @@ While logged into cluster type following into command line:
 1. git clone https://github.com/biodataprog/2019-hw3-rhamb001.git
 2. cd 2019-hw3-rhamb001/
 3. bash link_files.sh
-4. bash run_kallisto.sh
-5. bash run_pfam.sah
+4. sbatch run_kallisto.sh
+5. sbatch run_pfam.sh
 6. Wait 10-15 minutes for analyses to finish running
 7. bash move_files.sh
 8. Rscript make_table.r
